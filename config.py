@@ -1,9 +1,14 @@
 import argparse
 
-from agents.human import Human
-from agents.random import RandomAgent
+# from agents/human import HumanAgent
+# from agents/random import RandomAgent
+# from agents/decision_tree import DecisionTreeAgent
+
 # from agents.my_agent import MyAgent
 
+from human_agent import HumanAgent
+from random_agent import RandomAgent
+from decision_tree_agent import DecisionTreeAgent
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Select agents for the game')
