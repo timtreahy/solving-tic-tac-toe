@@ -1,4 +1,4 @@
-# DESCRIPTION: This agent looks at the list of remainign legal moves, and chooses a random one.
+# DESCRIPTION: This agent looks at the list of remaining legal moves, and chooses a random one.
 
 import random
 
