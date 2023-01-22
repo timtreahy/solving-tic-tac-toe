@@ -1,12 +1,13 @@
 import argparse
-from human_agent import HumanAgent
-from random_agent import RandomAgent
-from decision_tree_agent import DecisionTreeAgent
+import agents.decision_tree_agent as decision_tree_agent
+import agents.human_agent as human_agent
+import agents.random_agent as random_agent
+
 
 agents = {
-    "decision_tree": DecisionTreeAgent,
-    "random": RandomAgent,
-    "human": HumanAgent
+    "decision_tree": decision_tree_agent.DecisionTreeAgent,
+    "random": random_agent.RandomAgent,
+    "human": human_agent.HumanAgent
 }
 
 
