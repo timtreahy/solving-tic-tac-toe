@@ -6,7 +6,7 @@ import tkinter as tk
 
 player_1, player_2 = select_agents()
 root = tk.Tk()
-root.title("Tic-Tac-Toe")
+# root.title("Tic-Tac-Toe")
 board = Board(root)
 root.mainloop()
 
