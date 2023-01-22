@@ -1,0 +1,10 @@
+[MESSAGES CONTROL]
+disable=C0103,C0301,W0311,W0511
+
+[FORMAT]
+indent-string='    '
+
+[REPORTS]
+output-format=colorized
+files-output=no
+reports=yes
